@@ -131,18 +131,17 @@ figcaption{
 
 .flex_main_column{
     display: flex;
-    width: 300px;
+    padding: 12px;
     flex-flow: column nowrap;
     justify-content:center;
     align-items: flex-start;
+    background-color: #7fc993;
     }
 
 .flex_main_row{
     display:inline-flex;
-    /*flex-flow: row nowrap;
-    flex: 1 1 auto;*/
-    background-color: #7fc993;
-
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
     }
 
 .flex_main_container h2{
@@ -175,7 +174,6 @@ figcaption{
       flex-basis: 100%;
       margin: 4px;
     }
-    .page_footer{}
   }
 
   @media screen and (min-width: 601px) and (max-width: 1024px) {
