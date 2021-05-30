@@ -41,7 +41,7 @@ a:hover{
 img{
     max-width:100%;
     height:auto;
-    border: 2px solid #7fc993;
+    /*border: 2px solid #7fc993;*/
     }
 
 h1{
@@ -130,7 +130,7 @@ figcaption{
     flex-flow: column nowrap;
     justify-content:center;
     align-items: flex-start;
-    background-color: #7fc993;
+    /*background-color: #7fc993;*/
     }
 
 .flex_main_row{
