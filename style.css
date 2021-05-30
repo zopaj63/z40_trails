@@ -37,16 +37,11 @@ a:hover{
 
     }
 
-/*
+
 img{
     max-width:100%;
     height:auto;
     }
-*/
-
-img{
-    width: 200px;
-}
 
 h1{
     font-family: 'Sigmar One', cursive;
@@ -114,7 +109,6 @@ figcaption{
 .banner h1{
     font-size: 4em;
     color: #7fc993;
-    margin-left: 20px;
     text-shadow: 3px 3px 8px #000;
     animation: float-in 1s ease-in;
     }
@@ -131,7 +125,7 @@ figcaption{
 
 .flex_main_column{
     display: flex;
-    padding: 12px;
+    padding: 16px;
     flex-flow: column nowrap;
     justify-content:center;
     align-items: flex-start;
@@ -140,8 +134,8 @@ figcaption{
 
 .flex_main_row{
     display:inline-flex;
-    flex-flow: row nowrap;
-    flex: 1 1 auto;
+    /*flex-flow: row nowrap;
+    flex: 1 1 auto;*/
     }
 
 .flex_main_container h2{
