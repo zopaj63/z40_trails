@@ -172,10 +172,6 @@ figcaption{
     text-align: right;
     }
 
-.page_footer h2, .page_footer p {
-    color: #f2fff5;
-    }
-
 /*MEDIA QUERIES****************************************** */
 @media screen and (max-width: 600px) {
     .flex_main_container .flex_main_column {
