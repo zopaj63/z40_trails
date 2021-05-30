@@ -41,6 +41,7 @@ a:hover{
 img{
     max-width:100%;
     height:auto;
+    border: 2px solid #7fc993;
     }
 
 h1{
