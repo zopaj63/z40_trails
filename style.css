@@ -96,8 +96,9 @@ figcaption{
 
 .main_nav li {
     background-color: darkgreen;
-    padding: 8px;
-    margin: 20px;
+    padding: 6px;
+    margin: 16px;
+    border-radius: 0 8px;
     text-align: center;
     font-weight: bold;
     flex: 1 1 auto;
@@ -151,7 +152,7 @@ figcaption{
 .flex_main_container h2{
     font-size: 1.3em;
     margin-top: 0.6em;
-    color: #f2fff5;
+    color: #555;
     }
 
 /*MAIN FLOAT****************************************** */
@@ -177,7 +178,7 @@ figcaption{
 
 /*PAGE FOOTER****************************************** */
 .page_footer{
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: right;
     }
 
