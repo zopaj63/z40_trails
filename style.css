@@ -51,6 +51,7 @@ figcaption{
     text-align: center;
     font-style: italic;
     font-size: small;
+    padding: 8px;
 }
 
 .wrapper{
@@ -125,7 +126,7 @@ figcaption{
 
 .flex_main_column{
     display: flex;
-    width: 400px;
+    width: 300px;
     flex-flow: column nowrap;
     justify-content:center;
     align-items: flex-start;
@@ -145,14 +146,43 @@ figcaption{
     }
 
 /*MAIN FLOAT****************************************** */
+.main_aside{
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+    }
+
+.main_aside img{
+    width: 300px;
+    margin-right: 20px;
+    float: left;
+    }
+
+/*PAGE FOOTER****************************************** */
+.page_footer{
+    margin-top: 40px;
+    text-align: right;
+}
 
 /*MEDIA QUERIES****************************************** */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
+    .flex_main_container .flex_main_column {
+      flex-basis: 100%;
+      margin: 4px;
+    }
+    .page_footer{}
+  }
 
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .flex_main_container .flex_main_column {
+      flex-basis: calc(50% - 2 * 16px);
+      margin: 8px;
+    }
   }
   
-@media screen and (min-width: 801px) {
-
+  @media screen and (min-width: 1025px) {
+    .flex_main_container .flex_main_column {
+      flex-basis: calc(33% - 2 * 16px);
+      margin: 16px;
+    }
   }
-
-
