@@ -151,6 +151,11 @@ figcaption{
 .flex_main_container h2{
     font-size: 1.3em;
     margin-top: 0.6em;
+    color: #f2fff5;
+    }
+
+.flex_main_container p {
+    color: #f2fff5;
     }
 
 /*MAIN FLOAT****************************************** */
@@ -164,6 +169,14 @@ figcaption{
     width: 300px;
     margin-right: 20px;
     float: left;
+    }
+
+.main_aside h2{
+    color: #f2fff5;
+    }
+
+.main_aside p{
+    color: #f2fff5;
     }
 
 /*PAGE FOOTER****************************************** */
@@ -181,6 +194,10 @@ figcaption{
     .banner h1{
         font-size: 2.6em;
     }
+    .main_aside h2{
+        margin-top: 2px;
+    }
+    
   }
 
   @media screen and (min-width: 601px) and (max-width: 1024px) {
