@@ -19,7 +19,7 @@
 
 /*GENERAL****************************************** */
 body{
-    background-color: #CCC;
+    background-color: #f2fff5;
     color: #555;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
@@ -33,16 +33,24 @@ ul{
     list-style-type: none;
     }
 
-a:hover{
-
-    }
-
-
 img{
     max-width:100%;
     height:auto;
     /*border: 2px solid #7fc993;*/
     }
+
+p{
+    margin-top: 3px;
+    line-height: 150%;
+    }
+
+.flex_main_container img{
+    border: 2px solid #f2fff5;
+}
+
+.flex_main_container img:hover{
+    animation: shake 0.3s ease-in;
+}
 
 h1{
     font-family: 'Sigmar One', cursive;
@@ -161,7 +169,11 @@ figcaption{
 .page_footer{
     margin-top: 40px;
     text-align: right;
-}
+    }
+
+.page_footer h2, .page_footer p {
+    color: #f2fff5;
+    }
 
 /*MEDIA QUERIES****************************************** */
 @media screen and (max-width: 600px) {
