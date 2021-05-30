@@ -37,10 +37,11 @@ a:hover{
 
     }
 
-img{
+/*img{
     max-width:100%;
     height:auto;
     }
+*/
 
 h1{
     font-family: 'Sigmar One', cursive;
@@ -119,18 +120,21 @@ figcaption{
     max-width: 1200px;
     justify-content: space-evenly;
     align-items: flex-start;
+    margin-top: 20px;
     }
 
 .flex_main_column{
+    display: flex;
     width: 400px;
     flex-flow: column nowrap;
-    justify-content: flex-start;
+    justify-content:center;
     align-items: flex-start;
     }
 
 .flex_main_row{
-    flex-flow: row nowrap;
-    flex: 1 1 auto;
+    display:inline-flex;
+    /*flex-flow: row nowrap;
+    flex: 1 1 auto;*/
     background-color: #7fc993;
 
     }
