@@ -120,7 +120,7 @@ figcaption{
     font-size: 4em;
     color: #7fc993;
     text-shadow: 3px 3px 8px #000;
-    animation: float-in 1s ease-in;
+    animation: float-in 2s ease-in;
     margin-left: 0.7em;
     }
 
